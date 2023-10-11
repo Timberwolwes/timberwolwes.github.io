@@ -1,0 +1,30 @@
+h1 {
+	color: red;
+	text-align:center;
+}
+h2 {
+	color: blue;
+}
+html {
+	background-color: yellow;
+}
+.pinkki-laatikko {
+	color: black;
+	background-color: pink;
+}
+#musta-laatikko {
+	color: orange;
+	background-color: black;
+}
+#punainen-laatikko {
+	background-color: red;
+}
+.turpo-kappale {
+	background-color: orange;
+}
+img {
+	display: block;
+}
+p {
+	font-size: 130%;
+}
