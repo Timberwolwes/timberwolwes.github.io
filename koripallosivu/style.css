@@ -16,7 +16,7 @@ html {
 	color: orange;
 	background-color: black;
 }
-.punainen-laatikko {
+#punainen-laatikko {
 	background-color: olive;
 	font-size: 130%;
 }
