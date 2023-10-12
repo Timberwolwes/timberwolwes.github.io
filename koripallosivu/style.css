@@ -16,7 +16,7 @@ html {
 	color: orange;
 	background-color: black;
 }
-#punainen-laatikko {
+.punainen-laatikko {
 	background-color: black;
 }
 .turpo-kappale {
