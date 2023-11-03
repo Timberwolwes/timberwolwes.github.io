@@ -8,7 +8,7 @@ ul { display: flex; flex-wrap: wrap; list-style-type: none;
 h3 {
     position: absolute; 
     top: 0px;
-    background: rgba(13, 12, 12, 0.2); 
+    background-color: rgba(13, 12, 12, 0.2); 
     color: white;
     width: 91%;
 }
