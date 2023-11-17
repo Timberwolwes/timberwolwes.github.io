@@ -272,8 +272,8 @@ article p {
 footer {
 	/*Kannattaa laittaa footeriin vähintään padding 
 	ja ehkä eri taustaväri, jotta se erottuu hiukan.*/
-	overflow:hidden;
-	padding:25px;
+	overflow: hidden;
+	padding: 25px;
 	background-color: lightblue;
 	font-weight: bold;
 }
