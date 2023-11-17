@@ -273,8 +273,8 @@ footer {
 	/*Kannattaa laittaa footeriin vähintään padding 
 	ja ehkä eri taustaväri, jotta se erottuu hiukan.*/
 	overflow:hidden;
-	padding: 15px;
-	background-color: #3d405b;
+	padding: 20px;
+	background-color: #edf6f9;
 
 	
 }
