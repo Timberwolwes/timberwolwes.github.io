@@ -272,8 +272,14 @@ article p {
 footer {
 	/*Kannattaa laittaa footeriin vähintään padding 
 	ja ehkä eri taustaväri, jotta se erottuu hiukan.*/
+<<<<<<< HEAD
 	overflow:hidden;
 	padding:25px;
 	background-color: lightblue;
+=======
+	overflow: hidden;
+	padding: 20 px;
+	background-color: red;
+>>>>>>> b1a2aa7b4bd0b60b50c740012d443976d2194466
 }
 
