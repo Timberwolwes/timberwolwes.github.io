@@ -254,17 +254,18 @@ article p {
     width: 290px; /*Tämä tekee sen, että kuva ei mene yli reunasta.*/
 	border: 5px solid;
 	margin-top: 30px;
-	
+}
+
 	/*width: 500px;
 
 	/*Kuva voi olla koko artikkelin levyinen tai pienempi. 
 	Esim. alla olevalla kuvasta tulisi pienempi (=50%)
 	ja teksti kiertää kuvaa (=float):
 	
-	/*width: 50%;
+	/* width: 50%;
 	min-width: 150px;
-	float: left; 
-}
+	float: left; /* 
+
 
 /*-------- FOOTER ---------------*/
 
