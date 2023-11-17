@@ -274,6 +274,6 @@ footer {
 	ja ehkä eri taustaväri, jotta se erottuu hiukan.*/
 	overflow: hidden;
 	padding: 20px;
-	background-color: #edf6f9;
+	background-color: red;
 }
 
