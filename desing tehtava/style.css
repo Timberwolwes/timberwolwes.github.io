@@ -272,7 +272,8 @@ article p {
 footer {
 	/*Kannattaa laittaa footeriin vähintään padding 
 	ja ehkä eri taustaväri, jotta se erottuu hiukan.*/
-	padding: 20px;
+	
+	padding: 50px;
 	background-color: #edf6f9;
 
 	
