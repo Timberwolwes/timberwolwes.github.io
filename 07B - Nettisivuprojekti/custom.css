@@ -1,0 +1,309 @@
+*{
+box-sizing: border-box;
+}
+
+/*tausta-animaatio*/
+body {
+    display: flex;
+    flex-wrap: wrap;
+    animation:transitionIn 3s;
+}
+@keyframes transitionIn {
+    from{
+        opacity:0.1;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+/*loppu*/
+
+/*otsikot*/ 
+.pääotsikko{ 
+    color:#B32005;
+    font-size: 3vw;
+    text-align: center;
+    border:5px solid red;
+    padding: 20px;
+    background-color: #7fffd4;
+    margin-bottom: 0px;
+    display:flex
+}
+
+.pääotsikko img {
+    display: flex;
+    max-width:28%;
+    height:auto;
+    margin-right: 110px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    }
+    
+h2{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    }
+
+h3{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    }
+
+
+
+/*valikko*/
+#navi{
+    width: 100%;
+}
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    background-color:#B32005;
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+}
+
+li a {
+    display:block;
+    color:white;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+li a:hover{
+    background-color: red;
+}
+
+.logo {
+    width: 400px;
+    height: 260px;
+    margin:0px;
+    padding:10px; 
+}
+
+/*loppu*/
+
+/*kappaleet*/
+p{
+    font-family: 'Merriweather', serif;
+    font-size: 1vw;
+}
+
+.artikkelikuva {
+    max-width: 30%;
+    padding: 20px;
+    height: auto;
+    margin-right: 50px;
+    margin-top: 25px;
+    display:flex;
+}
+.rivi1{
+    display: flex;
+    width: 100%;
+    margin:35px;
+    padding:15px; 
+
+}
+.rivi1teksti{
+    margin-top:10px;
+    padding:10px;
+    width: 70%;
+    display: flex; 
+}
+
+.flex-container2 {
+    display:flex;
+    margin:20px;
+    padding:15px;
+    width: 100%;
+
+}
+
+.rivi2teksti1 {
+    margin:0px;
+    padding:15px; 
+    font-family: 'Merriweather', serif;
+}
+
+.rivi2 {
+    padding: 15px;
+}
+
+
+.rivi2teksti2{
+    margin:0px;
+    padding:15px; 
+    font-family: 'Merriweather', serif;
+}
+
+.rivi2teksti3{
+    margin:0px;
+    padding:15px; 
+    font-family: 'Merriweather', serif;
+}
+
+.kuudes{
+    float: none;
+    margin:20px;
+    padding:25px; 
+    text-align: center;
+    width: 100%;
+}
+
+/*footer*/
+
+footer{
+    font-size: 3vw;
+    text-align: center;
+    padding: 20px;
+    background-color: aquamarine;
+    margin-bottom: 0px;
+    display:flexbox;
+    border: 5px solid red;
+}
+
+footer img{
+    max-width:20%;
+    height:auto;  
+  }
+
+/*loppu*/
+
+@media only screen and (max-width: 600px) {
+    article { width: 100%;}
+}
+
+/*taustakuva*/
+.taustakuva {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .kuva {
+    opacity: 0.1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+  }
+  
+  .sisältö {
+    position: relative;
+  }
+
+/* bootstrap css*/
+
+.bsotsikko{
+    display: flex;
+    width: 100%;
+    background-color:#7fffd4;
+}
+
+.p-5{
+    background-color: #7fffd4;;
+    width:100%;
+    padding: 0px;
+}
+.navbar{
+    display: flex;
+    width: 100%;  
+    padding: 0px;
+}
+
+.navbar-nav{
+    width: 100%;
+}
+
+.nav-item{
+    display:block;
+    color:white;
+    padding: 14px 16px;
+    text-decoration: none;
+ 
+}
+
+.hinnasto{
+    display: flex;
+}
+
+#kuva{
+    width:416px; 
+    height:600px;
+}
+
+.btn{
+    color:#f87196;
+    background-color: black;
+}
+
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  input[type=text]:focus {
+    width: 100%;
+  }
+
+#ala{
+    margin-left: 900px;
+  }
+
+.css {
+    all: revert;
+}
+.otsikkoteksti {
+    text-align: center;
+}
+.eka{
+    width: 100%;
+}
+.bootstrap{
+    display: flex; flex-wrap: wrap;
+}
+main{
+    width: 100%
+}
+
+header{
+    padding: 25px;
+}
+.container{
+    padding: 35px;
+}
+
+.otsikkoteksti{
+    color:black;
+    padding:10px;
+    font-family: 'Oswald', sans-serif;
+
+}
+ol{
+    background-color: #7fffd4;
+}
+
+/* bootstrap css*/
